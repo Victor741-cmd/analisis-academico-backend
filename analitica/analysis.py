@@ -53,3 +53,4 @@ def crosstabs(df: pd.DataFrame) -> dict:
         "preparacion_vs_frecuencia": ct("preparacion_estudiantes", "frecuencia_estrategias"),
         "mejora_vs_interes": ct("mejora_competencia_con_ml", "interes_modelo_ml"),
     }
+ 
